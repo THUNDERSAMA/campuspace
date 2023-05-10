@@ -1,0 +1,67 @@
+* {
+    font-family: inherit;
+}
+
+.title {
+    height: 100px;
+    text-align: center;
+    text-shadow: 10px;
+    font-family: inherit;
+    font-weight: bolder;
+    position: relative;
+    z-index: 10;
+}
+
+.blank {
+    height: 100px;
+}
+
+.card {
+    display: flex;
+    /* align-items: center;
+    justify-content: center;
+    width: fit-content; */
+    background: rgba(0, 0, 0, 0.5);
+    /* box-shadow: 35px 35px 68px 0px rgba(0, 0, 0, 0.5), inset -8px -8px 16px 0px rgba(0, 0, 0, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255); */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding-block: 20px;
+    transition: all 300ms ease;
+}
+
+.card:hover {
+    scale: 1.03;
+}
+
+.container {
+    justify-content: center;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.orr {
+    color: white;
+    font-family: inherit;
+    width: fit-content;
+    border: 1px solid white;
+}
+
+.card.button.btn btn-secondary {
+    justify-content: center;
+}
+
+/*@media only screen and (max-width: 600px) {
+
+.container
+{
+    position: fixed;
+}
+}*/
